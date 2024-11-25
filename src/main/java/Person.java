@@ -5,6 +5,10 @@ public class Person implements Serializable {
     String name;
     Integer age;
 
+    public Person(){
+        super();
+    }
+
     public Person(String name, Integer age){
         this.name = name;
         this.age = age;

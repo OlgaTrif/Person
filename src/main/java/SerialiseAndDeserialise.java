@@ -1,15 +1,10 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.io.*;
 
 /**
  * Задание 1: Создайте класс Person с полями name и age. Реализуйте сериализацию и десериализацию этого класса в файл.
- *
- * Задание 2: Используя JPA, создайте базу данных для хранения объектов класса Person.
- * Реализуйте методы для добавления, обновления и удаления объектов Person.
  */
 
-public class Main {
+public class SerialiseAndDeserialise {
     public static void main(String[] args) {
         Person person = new Person("Ivan", 23);
 
